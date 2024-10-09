@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
     document.head.appendChild(script);
 
     function initializeSocket() {
-        const socket = io('http://localhost:8500');
+        const socket = io('https://api-037.ruk-av.com');
 
         // Create a container for the stats
         const statsContainer = document.createElement('div');
